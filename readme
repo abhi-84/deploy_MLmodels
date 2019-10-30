@@ -1,0 +1,9 @@
+In Decision Tree basd Machine learning code,add following 2 lines at end of ML notebook file:
+import pickle
+pickle.dump(clf, open('models/final_prediction.pickle', 'wb'))
+
+These lines would generate machine learning model with name "final_prediction.pickle" which woulod be used in given files.
+
+First run app.py file in terminal. 
+Run another file request.py in another terminal and feed the feature values from database or new feature values and check the predicted output.
+Enjoy!!
